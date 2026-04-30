@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.imagen-responsiva{
+    height: 100%;
+    width: 100%;
+}
