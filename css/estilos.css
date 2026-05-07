@@ -91,6 +91,7 @@ ul{
 
 .imagen-responsiva{
     height: 100%;
+    margin-top: 1rem;
     width: 100%;
 }
 
@@ -119,4 +120,19 @@ tbody tr:last-child td {
 
 tbody tr:hover {
     background-color: #fde68a;
+}
+/* Pagina Nosotros */
+.texto-centrado{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+address a{
+    color: rgb(224, 217, 217);
+    text-decoration: none;
+}
+strong a, figcaption{
+    text-shadow: 0 4px 10px rgba(0,0,0,0.7);
+    color: rgb(143, 45, 45);
+    text-decoration: none;
 }
