@@ -3,95 +3,163 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Huellas al Rescate - Inicio</title>
+  <title>Huellas al Rescate - Contacto</title>
+
   <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
+
   <header>
     <img src="img/logo.png" alt="Logo">
+
     <h1>Huellas al Rescate</h1>
-    <p>Rescatamos, cuidamos y buscamos un hogar para animales en situación de calle.</p>
-    
+
+    <p>
+      Rescatamos, cuidamos y buscamos un hogar para animales en situación de calle.
+    </p>
+
     <nav>
       <ul>
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./nosotros.html">Nosotros</a></li>
-        <li><a href="./programas.html">Programas</a></li>
-        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a class="button" href="./index.html">Inicio</a></li>
+        <li><a class="button" href="./nosotros.html">Nosotros</a></li>
+        <li><a class="button" href="./programas.html">Programas</a></li>
+        <li><a class="button" href="./contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <p><a href="#formulario">Ir al formulario de contacto</a></p>
 
-    <section>
-      <h2>Información de contacto</h2>
+    <section class="texto-centrado">
+      <h2>Contacto</h2>
 
-      <div>
-        <h3>Dirección</h3>
-        <p>Buenos Aires, Argentina</p>
-      </div>
+      <p>
+        Si encontraste un animal en situación de calle,
+        querés adoptar o colaborar con nuestra ONG,
+        podés comunicarte con nosotros mediante el formulario.
+      </p>
 
-      <div>
-        <h3>Teléfono</h3>
+      <div class="datos-contacto">
+
         <p>
-          <a href="tel:+541112345678">+54 11 1234-5678</a>
+          Nuestro equipo responde consultas sobre rescates,
+          adopciones y voluntariado.
         </p>
-      </div>
 
-      <div>
-        <h3>Email</h3>
         <p>
-          <a href="mailto:info@huellasalrescate.org">info@huellasalrescate.org</a>
+          También podés seguirnos en nuestras redes sociales
+          para conocer nuevas historias y adopciones.
         </p>
+
+        <p>
+          <strong>Ubicación:</strong>
+          Buenos Aires, Argentina
+        </p>
+
       </div>
     </section>
 
-    <section>
+    <section class="texto-centrado">
       <h2>Redes sociales</h2>
+
       <p>
-        Seguinos en nuestra red social:
-        <a href="https://www.petbook.com/huellasalrescate" target="_blank">
+        Seguinos en nuestra red social oficial:
+      </p>
+
+      <p>
+        <a
+          class="button"
+          href="https://www.petbook.com/huellasalrescate"
+          target="_blank"
+        >
           PetBook
         </a>
       </p>
     </section>
-    <section>
-      <h2>Redes sociales</h2>
-      <p>
-        Seguinos en nuestra red social:
-        <a href="https://www.petbook.com/huellasalrescate" target="_blank">
-          PetBook
-        </a>
-      </p>
-    </section>
 
-    <section id="formulario">
+    <section id="formulario" class="texto-centrado">
+
       <h2>Formulario de contacto</h2>
 
-      <form>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+      <form class="formulario-contacto">
 
-        <label for="email">Correo electrónico:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="nombre">Nombre</label>
 
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          required
+        >
 
-        <button type="submit">Enviar</button>
+        <label for="email">Correo electrónico</label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+        >
+
+        <label for="mensaje">Mensaje</label>
+
+        <textarea
+          id="mensaje"
+          name="mensaje"
+          rows="5"
+          required
+        ></textarea>
+
+        <button class="button" type="submit">
+          Enviar
+        </button>
+
       </form>
+
     </section>
 
-    <aside>
+    <aside class="texto-centrado">
+
       <h3>Horarios de atención</h3>
-      <p>Lunes a viernes de 9:00 a 18:00 hs</p>
+
+      <p>
+        Lunes a viernes de 9:00 a 18:00 hs
+      </p>
+
     </aside>
+
   </main>
 
   <footer>
-    <p>Contacto: <a href="mailto:info@huellasalrescate.org">info@huellasalrescate.org</a></p>
+    <section>
+
+      <h4>Contacto</h4>
+
+      <address>
+
+        <p>
+          Email:
+          <a href="mailto:info@huellasalrescate.org">
+            info@huellasalrescate.org
+          </a>
+        </p>
+
+        <p>
+          Telefono:
+          <a href="tel:+541112345678">
+            +54 11 1234-5678
+          </a>
+        </p>
+
+      </address>
+
+      <p class="copyright">
+        © 2026 Huellas al rescate | Buenos Aires, Argentina
+      </p>
+
+    </section>
   </footer>
+
 </body>
 </html>

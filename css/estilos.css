@@ -121,7 +121,7 @@ tbody tr:last-child td {
 tbody tr:hover {
     background-color: #fde68a;
 }
-/* Pagina Nosotros */
+
 .texto-centrado{
     margin: 10px;
     padding: 10px;
@@ -135,4 +135,47 @@ strong a, figcaption{
     text-shadow: 0 4px 10px rgba(0,0,0,0.7);
     color: rgb(143, 45, 45);
     text-decoration: none;
+}
+
+.datos-contacto{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-contacto{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario-contacto label{
+    text-align: left;
+    font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: var(--fuente);
+}
+
+.formulario-contacto textarea{
+    resize: vertical;
+}
+
+.formulario-contacto button{
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+.formulario-contacto button:hover{
+    opacity: 0.9;
 }
