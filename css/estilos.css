@@ -1,15 +1,16 @@
 :root{
-    --colorPrimmary: #1F2937;
+    --colorPrimary: #1F2937;
     --colorBackground: #FEF3C7;
     --colorButton: #F97316;
     --colorText: #1a1a1a;
-    --fuente:"Inter", sans serif;
+    --fuente:"Lato", sans-serif;
 }
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: var(--fuente);
 }
 
 body{
@@ -26,7 +27,7 @@ main {
 }
 
 header {
-    background-color: var(--colorPrimmary);
+    background-color: var(--colorPrimary);
     color: white;
     display: flex;
     flex-direction: column;
@@ -69,7 +70,7 @@ main section, main aside {
 }
 
 footer{
-    background-color: var(--colorPrimmary);
+    background-color: var(--colorPrimary);
     color: white;
     display: flex;
     flex-direction: column;
@@ -112,7 +113,7 @@ table {
 }
 
 th {
-    background-color: var(--colorPrimmary);
+    background-color: var(--colorPrimary);
     color: white;
     padding: 10px 14px;
     text-align: left;
@@ -172,7 +173,6 @@ strong a, figcaption{
     border: 1px solid #d1d5db;
     border-radius: 12px;
     font-size: 16px;
-    font-family: var(--fuente);
 }
 
 .formulario-contacto textarea{
