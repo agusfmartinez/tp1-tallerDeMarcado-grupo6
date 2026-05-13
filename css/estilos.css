@@ -95,6 +95,15 @@ ul{
     width: 100%;
 }
 
+.imagen-redireccion{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.imagen-redireccion:hover{
+    opacity: 0.5;
+}
+
 /* Pagina Programas */
 table {
     width: 100%;
