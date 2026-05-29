@@ -165,7 +165,30 @@ strong a, figcaption{
     color: rgb(143, 45, 45);
     text-decoration: none;
 }
+.grilla-estaciones{
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 0.5rem;
 
+   text-align: center; 
+}
+
+.grilla-estaciones h2 {
+    grid-column: span 1;
+}
+
+.imagen-folleto{
+    height: 16rem;
+    width: 24rem;
+}
+.imagen-muestra{
+    height: 15rem;
+    width: 22rem
+}
+.texto-color{
+    margin-top: 5rem;
+    color: #154e9f;
+}
 /* Pagina Contacto */
 .datos-contacto{
     margin-top: 1rem;
