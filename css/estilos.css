@@ -40,6 +40,20 @@ header {
     text-align: center;
 }
 
+/* Posicionamiento */
+.imagen-container {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-container .badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: var(--colorButton);
+    z-index: 1;
+}
+
 header img {
     width: 80px;
     height: 80px;
@@ -63,6 +77,7 @@ h3 {
     color: var(--colorButton);
 }
 
+/* Flexbox */
 nav {
     margin-top: 8px;
 }
@@ -230,4 +245,23 @@ strong a, figcaption{
 
 .formulario-contacto button:hover{
     opacity: 0.9;
+}
+
+/* Bootstrap */
+.alert-warning {
+    background-color: #fef9c3;
+    border-color: var(--colorButton);
+    color: var(--colorText);
+    font-family: var(--fuente);
+}
+
+.alert-warning h3 {
+    color: var(--colorPrimary);
+    font-size: 16px;
+}
+
+.badge {
+    font-family: var(--fuente);
+    font-weight: 600;
+    letter-spacing: 0.03em;
 }
