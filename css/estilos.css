@@ -248,6 +248,25 @@ strong a, figcaption{
 }
 
 /* Bootstrap */
+.carousel-img {
+    max-height: 420px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 140px;
+    object-fit: cover;
+}
+
+.cta-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+
 .alert-warning {
     background-color: #fef9c3;
     border-color: var(--colorButton);

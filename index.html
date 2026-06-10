@@ -26,6 +26,45 @@
     </nav>
   </header>
 
+  <div id="carouselProgramas" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselProgramas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Rescate Animal"></button>
+      <button type="button" data-bs-target="#carouselProgramas" data-bs-slide-to="1" aria-label="Adopción Responsable"></button>
+      <button type="button" data-bs-target="#carouselProgramas" data-bs-slide-to="2" aria-label="Campañas de Salud"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/adopcion-verano-1.webp" class="d-block w-100 carousel-img" alt="Adopción en verano">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cada adopción es un nuevo comienzo</h5>
+          <p>Más de 300 animales encontraron su hogar gracias a vos. <a class="button btn btn-sm" href="./nosotros.html">Conocé nuestra historia</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/adopcion-invierno-1.webp" class="d-block w-100 carousel-img" alt="Adopción en invierno">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ningún animal debería estar solo</h5>
+          <p>Rescatamos, cuidamos y buscamos familias responsables. <a class="button btn btn-sm" href="./programas.html">Ver programas</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/adopcion-otoño-1.webp" class="d-block w-100 carousel-img" alt="Adopción en otoño">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>¿Podés ser parte del cambio?</h5>
+          <p>Adoptá, hacete voluntario o colaborá con una donación. <a class="button btn btn-sm" href="./contacto.html">Contactanos</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProgramas" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselProgramas" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
   <main>
     <section class="texto-centrado">
       <h2>¿Quiénes somos?</h2>
@@ -44,40 +83,13 @@
     </section>
 
     <section class="texto-centrado">
-      <h2>Nuestros programas</h2>
-      <ul>
-        <li>
-          <div class="imagen-container">
-            <span class="badge">Rescate Animal</span>
-            <a href="./programas.html">
-              <img class="imagen-redireccion" src="img/rescate_animal.webp" alt="Imagen de rescate de animal">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="imagen-container">
-            <span class="badge">Adopción Responsable</span>
-            <a href="./programas.html">
-              <img class="imagen-redireccion" src="img/adopcion_responsable.webp" alt="Imagen de adopción responsable">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="imagen-container">
-            <span class="badge">Campañas de Salud</span>
-            <a href="./programas.html">
-              <img class="imagen-redireccion" src="img/camp_salud.webp" alt="Imagen de campañas de vacunación y castración">
-            </a>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section class="texto-centrado">
-      <h2>Conocé nuestro trabajo</h2>
-      <a href="./nosotros.html">
-        <img class="imagen-responsiva imagen-redireccion" src="img/imagenes_de_adopcion.webp" alt="Algunas de nuestra adopciones (ir a Nosotros)" />
-      </a>
+      <h2>¿Cómo podés ayudar?</h2>
+      <p>Tu apoyo hace la diferencia. Elegí cómo involucrarte:</p>
+      <div class="cta-botones">
+        <a class="button" href="./contacto.html">Quiero adoptar</a>
+        <a class="button" href="./contacto.html">Ser voluntario</a>
+        <a class="button" href="./programas.html">Ver programas</a>
+      </div>
     </section>
   </main>
 
