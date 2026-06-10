@@ -23,11 +23,11 @@ body{
     line-height: 1.5;
 }
 
-main {
+/* main {
     flex: 1;
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 header {
     background-color: var(--colorPrimary);
@@ -259,8 +259,20 @@ strong a, figcaption{
 }
 
 .card-img-top {
-    height: 140px;
+    height: 220px;
     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .card-img-top {
+        height: 320px;
+    }
+}
+
+[id^="card-"]:target .card {
+    box-shadow: 0 0 0 3px var(--colorButton);
+    outline: 2px solid var(--colorButton);
+    transition: box-shadow 0.3s ease, outline 0.3s ease;
 }
 
 .cta-botones {
