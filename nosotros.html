@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
@@ -56,99 +57,275 @@
         <section class="texto-centrado">
             <h2 class="texto-color">Galeria de imagenes adopciones</h2>
             <h2>Cada estación cambia el paisaje… pero también cambia la vida de quienes esperan un hogar 🐾</h2>
-
                 <p>
                     En <strong>primavera</strong> florecen las oportunidades, en 
                     <strong>verano</strong> buscamos sombra y agua para protegerlos del calor, 
                     en <strong>otoño</strong> los resguardamos de las lluvias y el viento, 
                     y en <strong>invierno</strong> luchamos para que ningún perro o gato pase frío solo en la calle.
                 </p>
-
                 <p>
                     En <strong>Huellas al Rescate</strong> creemos que el amor y el cuidado 
                     no dependen del clima. Cada estación representa un nuevo desafío para los 
                     animales en adopción, y por eso trabajamos todos los días para brindarles 
                     abrigo, alimento, atención y esperanza mientras esperan encontrar una familia definitiva.
                 </p>
-
                 <p>
                     Esta galería muestra momentos reales de cariño, rescate y segundas oportunidades 
                     a lo largo del año. Detrás de cada imagen hay una historia que merece ser vista… 
                     y un amigo que todavía espera ser elegido. ❤️
                 </p>
-
                 <h3>🐶🐱 Deslizá, descubrí sus historias y ayudanos a cambiar vidas en cada temporada.</h3>
                 
         </section>
-        <section class="texto-centrado grilla-estaciones"> 
-            <h2>Estación Primavera</h2>
-            <p> Esta serie captura la alegría y el color de la primavera en Buenos Aires, con los jacarandás en flor y una atmósfera vibrante.
-                La estación simboliza nuevos comienzos, acompañando las jornadas de adopción donde cada mascota puede iniciar una vida rodeada
-                de cariño y compañía.
-            </p>
-            <figure>
-                <img class=" imagen-folleto" src="./img/primavera-adopcion-1.webp" alt="adopcion Plaza Serrano">
-                <figcaption>Plaza Serrano <time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-primavera-2.webp" alt="adopcion Plaza Serrano">
-                <figcaption>Plaza Serrano <time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-primavera-3.webp " alt="adopcion Plaza Serrano">
-                <figcaption>Plaza Serrano <time datetime="2024">2024</time></figcaption>
-            </figure>
-            <h2>Estación Verano</h2>
-            <p> En verano, la plaza ofrece refugio bajo la sombra de sus grandes árboles, creando un ambiente fresco y animado para las adopciones.
-                Cada encuentro se convierte en una oportunidad para cambiar la vida de un animal rescatado y comenzar una historia de compañía y 
-                cariño.
-            </p>
-            <figure>
-                <img class=" imagen-muestra" src="./img/adopcion-verano-1.webp" alt="adopcion Plaza San Martín">
-                <figcaption>Plaza San Martín (Retiro) <time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-verano-2.webp " alt="adopcion Plaza Armenia">
-                <figcaption>Plaza Inmig. de Armenia (Palermo)<time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-verano-3.webp " alt="adopcion Parque Las Heras">
-                <figcaption>Parque Las Heras (Palermo) <time datetime="2024">2024</time></figcaption>
-            </figure>
-            <h2>Estación Otoño</h2>
-            <p> El otoño transforma la plaza con sus tonos dorados y naranjas, creando un ambiente acogedor para encontrar una nueva familia.
-                En cada jornada de adopción, la ONG busca unir corazones y brindarles a perros y gatos la posibilidad de una vida mejor.
-            </p>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-otoño-1.webp" alt="adopcion Plaza Italia">
-                <figcaption> Plaza Italia (Palermo) <time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-otoño-2.webp" alt="adopcion Plaza Italia">
-                <figcaption> Plaza Italia (Palermo) <time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-otoño-3.webp" alt="adopcion Plaza Italia">
-                <figcaption> Plaza Italia (Palermo) <time datetime="2024">2024</time></figcaption>
-            </figure>
-            <h2>Estación Invierno</h2>
-                <p> El invierno presenta un desafío, pero la ONG crea refugios cálidos y acogedores, demostrando que el amor no tiene estación.
-                    En cada jornada de adopción, perros y gatos encuentran la posibilidad de comenzar una nueva vida, rodeados de cuidado, respeto
-                    y una familia que los acompañe para siempre.
+
+
+
+        
+<div>
+    <div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/primavera-adopcion-1.webp" alt="adopcion Plaza Serrano">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Primavera</h5>
+                        <p class="card-text">
+                            Esta serie captura la alegría y el color de la primavera en Buenos Aires, con los jacarandás en flor y una atmósfera vibrante.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-primavera-2.webp" alt="adopcion Plaza Serrano">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Primavera</h5>
+                        <p class="card-text">
+                            La estación simboliza nuevos comienzos, acompañando las jornadas de adopción donde cada mascota puede iniciar una vida rodeada
+                            de cariño y compañía.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-primavera-3.webp " alt="adopcion Plaza Serrano">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Primavera</h5>
+                        <div class="card-footer text-muted">
+                            Plaza Serrano <time datetime="2025">2025</time>
+                        </div>
+                        <a href="" class="btn btn-primary">Adopciones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section>
+    <div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-verano-1.webp" alt="adopcion Plaza San Martín">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Verano</h5>
+                        <p class="card-text">
+                            En verano, la plaza ofrece refugio bajo la sombra de sus grandes árboles, creando un ambiente fresco y animado para las adopciones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-verano-2.webp" alt="adopcion Plaza San Martín">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Verano</h5>
+                        <p class="card-text">
+                            Cada encuentro se convierte en una oportunidad para cambiar la vida de un animal rescatado y comenzar una historia de compañía y 
+                            cariño.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-verano-3.webp" alt="adopcion Plaza San Martín">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Verano</h5>
+                        <div class="card-footer text-muted">
+                            Plaza San Martín (Retiro) <time datetime="2025">2025</time>
+                        </div>
+                        <a href="./programas.html" class="btn btn-primary">Adopciones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-otoño-1.webp" alt="adopcion Plaza Italia">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Otoño</h5>
+                        <p class="card-text">
+                        El otoño transforma la plaza con sus tonos dorados y naranjas, creando un ambiente acogedor para encontrar una nueva familia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-otoño-2.webp" alt="adopcion Plaza Italia">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Otoño</h5>
+                        <p class="card-text">
+                        En cada jornada de adopción, la ONG busca unir corazones y brindarles a perros y gatos la posibilidad de una vida mejor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-otoño-3.webp" alt="adopcion Plaza Italia">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Otoño</h5>
+                        <div class="card-footer text-muted">
+                        Plaza Italia (Palermo) <time datetime="2024">2024</time>
+                        </div>
+                        <a href="./programas.html" class="btn btn-primary">Adopciones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-invierno-1.webp" alt="adopcion Plaza De Mayo">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Invierno</h5>
+                        <p class="card-text">
+                        El invierno presenta un desafío, pero la ONG crea refugios cálidos y acogedores, demostrando que el amor no tiene estación.
+                        En cada jornada de adopción, perros y gatos encuentran la posibilidad de comenzar una nueva vida, rodeados de cuidado, respeto
+                        y una familia que los acompañe para siempre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-invierno-2.webp" alt="adopcion Plaza De Mayo">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Invierno</h5>
+                        <p class="card-text">
+                        En cada jornada de adopción, perros y gatos encuentran la posibilidad de comenzar una nueva vida, rodeados de cuidado, respeto
+                        y una familia que los acompañe para siempre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card border-warning mb-3">
+                    <img class="card-img-top imagen-responsiva" src="./img/adopcion-invierno-3.webp" alt="adopcion Plaza De Mayo">
+                    <div class="card-body">
+                        <h5 class="card-title">Estación Invierno</h5>
+                        <div class="card-footer text-muted">
+                            Plaza de Mayo (Monserrat) <time datetime="2024">2024</time>
+                        </div>
+                        <a href="./programas.html" class="btn btn-primary">Adopciones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!--
+            <section class="texto-centrado grilla-estaciones"> 
+                <h2>Estación Primavera</h2>
+                <p> Esta serie captura la alegría y el color de la primavera en Buenos Aires, con los jacarandás en flor y una atmósfera vibrante.
+                    La estación simboliza nuevos comienzos, acompañando las jornadas de adopción donde cada mascota puede iniciar una vida rodeada
+                    de cariño y compañía.
                 </p>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-invierno-1.webp" alt="adopcion Plaza De Mayo">
-                <figcaption> Plaza de Mayo (Monserrat) <time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-invierno-2.webp" alt="adopcion Plaza De Mayo">
-                <figcaption> Plaza de Mayo (Monserrat) <time datetime="2025">2025</time></figcaption>
-            </figure>
-            <figure>
-                <img class="imagen-muestra" src="./img/adopcion-invierno-3.webp" alt="adopcion Plaza De Mayo">
-                <figcaption> Plaza de Mayo (Monserrat) <time datetime="2024">2024</time></figcaption>
-            </figure>
-        </section>    
+                <figure>
+                    <img class=" imagen-folleto" src="./img/primavera-adopcion-1.webp" alt="adopcion Plaza Serrano">
+                    <figcaption>Plaza Serrano <time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-primavera-2.webp" alt="adopcion Plaza Serrano">
+                    <figcaption>Plaza Serrano <time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-primavera-3.webp " alt="adopcion Plaza Serrano">
+                    <figcaption>Plaza Serrano <time datetime="2024">2024</time></figcaption>
+                </figure>
+                <h2>Estación Verano</h2>
+                <p> En verano, la plaza ofrece refugio bajo la sombra de sus grandes árboles, creando un ambiente fresco y animado para las adopciones.
+                    Cada encuentro se convierte en una oportunidad para cambiar la vida de un animal rescatado y comenzar una historia de compañía y 
+                    cariño.
+                </p>
+                <figure>
+                    <img class=" imagen-muestra" src="./img/adopcion-verano-1.webp" alt="adopcion Plaza San Martín">
+                    <figcaption>Plaza San Martín (Retiro) <time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-verano-2.webp " alt="adopcion Plaza Armenia">
+                    <figcaption>Plaza Inmig. de Armenia (Palermo)<time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-verano-3.webp " alt="adopcion Parque Las Heras">
+                    <figcaption>Parque Las Heras (Palermo) <time datetime="2024">2024</time></figcaption>
+                </figure>
+                <h2>Estación Otoño</h2>
+                <p> El otoño transforma la plaza con sus tonos dorados y naranjas, creando un ambiente acogedor para encontrar una nueva familia.
+                    En cada jornada de adopción, la ONG busca unir corazones y brindarles a perros y gatos la posibilidad de una vida mejor.
+                </p>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-otoño-1.webp" alt="adopcion Plaza Italia">
+                    <figcaption> Plaza Italia (Palermo) <time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-otoño-2.webp" alt="adopcion Plaza Italia">
+                    <figcaption> Plaza Italia (Palermo) <time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-otoño-3.webp" alt="adopcion Plaza Italia">
+                    <figcaption> Plaza Italia (Palermo) <time datetime="2024">2024</time></figcaption>
+                </figure>
+                <h2>Estación Invierno</h2>
+                    <p> El invierno presenta un desafío, pero la ONG crea refugios cálidos y acogedores, demostrando que el amor no tiene estación.
+                        En cada jornada de adopción, perros y gatos encuentran la posibilidad de comenzar una nueva vida, rodeados de cuidado, respeto
+                        y una familia que los acompañe para siempre.
+                    </p>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-invierno-1.webp" alt="adopcion Plaza De Mayo">
+                    <figcaption> Plaza de Mayo (Monserrat) <time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-invierno-2.webp" alt="adopcion Plaza De Mayo">
+                    <figcaption> Plaza de Mayo (Monserrat) <time datetime="2025">2025</time></figcaption>
+                </figure>
+                <figure>
+                    <img class="imagen-muestra" src="./img/adopcion-invierno-3.webp" alt="adopcion Plaza De Mayo">
+                    <figcaption> Plaza de Mayo (Monserrat) <time datetime="2024">2024</time></figcaption>
+                </figure>
+            </section>    
+        -->
+
+
+
     </main>
     <footer>
         <section>
@@ -160,5 +337,6 @@
             <p class="copyright">© 2026 Huellas al rescate | Buenos Aires, Argentina</p>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
