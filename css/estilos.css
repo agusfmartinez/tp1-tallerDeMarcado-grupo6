@@ -169,6 +169,11 @@ tbody tr:hover {
 }
 
 /* Pagina Nosotros */
+.card-flex{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 .texto-centrado{
     margin: 10px;
     padding: 10px;
