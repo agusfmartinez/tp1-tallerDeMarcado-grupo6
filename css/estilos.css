@@ -4,6 +4,10 @@
     --colorButton: #F97316;
     --colorText: #1a1a1a;
     --fuente:"Lato", sans-serif;
+    --colorPrimaryOscuro: #232323;
+    --colorBackgroundOscuro: #1B1B1B;
+    --colorButtonOscuro: #FF8C42;
+    --colorTextOscuro: #F3F4F6;
 }
 
 *{
@@ -11,7 +15,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*------------------------------------------------modo claro-----------------------------------*/
 body{
     background-color: var(--colorBackground);
     color: var(--colorText);
@@ -189,8 +193,7 @@ strong a, figcaption{
     display: grid;
     grid-template-columns: 2fr;
     gap: 0.5rem;
-
-   text-align: center; 
+    text-align: center; 
 }
 
 .grilla-estaciones h2 {
@@ -334,3 +337,31 @@ strong a, figcaption{
 .navbar-collapse {
     margin-top: 15px;
 }
+
+/*------------------------------------------------modo oscuro-----------------------------------*/
+body.Modo-oscuro{
+    background-color: var(--colorBackgroundOscuro);
+    color: var(--colorTextOscuro);
+}
+body.Modo-oscuro head{
+    background-color: var(--colorPrimaryOscuro);
+}
+
+body.Modo-oscuro  h1 {
+    font-size: 22px;
+    color: wheat;
+}
+body.Modo-oscuro .card-body{
+    background-color: var(--colorBackgroundOscuro);
+    color: var(--colorTextOscuro);
+}
+body.Modo-oscuro h2{
+    color: var(--colorButtonOscuro);
+}
+body.Modo-oscuro h2.texto-color{
+    color: rgb(185, 27, 27) ;
+}
+body.Modo-oscuro strong a, figcaption{
+    color: rgb(185,27,27);
+}
+/*--------------------------------------------------------------------------------------------*/
