@@ -364,4 +364,7 @@ body.Modo-oscuro h2.texto-color{
 body.Modo-oscuro strong a, figcaption{
     color: rgb(185,27,27);
 }
+body.Modo-oscuro span{
+    color: #fef9c3;
+}
 /*--------------------------------------------------------------------------------------------*/
