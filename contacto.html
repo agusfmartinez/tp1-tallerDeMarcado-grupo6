@@ -112,7 +112,7 @@
 
       <h2>Formulario de contacto</h2>
 
-      <form class="formulario-contacto">
+      <form class="formulario-contacto" id="form-contacto">
 
         <label for="nombre">Nombre</label>
 
@@ -120,7 +120,6 @@
           type="text"
           id="nombre"
           name="nombre"
-          required
         >
 
         <label for="email">Correo electrónico</label>
@@ -129,7 +128,6 @@
           type="email"
           id="email"
           name="email"
-          required
         >
 
         <label for="mensaje">Mensaje</label>
@@ -138,13 +136,13 @@
           id="mensaje"
           name="mensaje"
           rows="5"
-          required
         ></textarea>
 
         <button class="button" type="submit">
           Enviar
         </button>
 
+        <p id="mensaje-formulario"></p>
       </form>
 
     </section>
