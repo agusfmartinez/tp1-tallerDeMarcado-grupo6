@@ -59,7 +59,7 @@
   <main class="container py-3">
     <div class="row g-4">
 
-      <section id="programas" class="col-12 col-md-8">
+      <section id="programas" class="col-12">
         <h2>Programas de la ONG</h2>
 
         <article>
@@ -68,6 +68,7 @@
             para ayudar a animales en situación de calle. Nuestro objetivo es
             <em>rescatar, cuidar y encontrar un hogar</em> para cada uno de ellos.
           </p>
+          <button id="btn-ver-mas" class="button btn btn-sm">Ver info importante</button>
         </article>
 
         <div class="table-responsive">
@@ -105,12 +106,12 @@
 
       </section>
 
-      <aside class="col-12 col-md-4">
+      <aside id="aside-programas" class="d-none col-12 col-md-4">
         <div class="alert alert-warning" role="alert">
           <h3>Importante</h3>
           <p>
             Tu ayuda es fundamental. Podés colaborar como voluntario o con donaciones
-            para que podamos seguir ayudando a más animales.
+            para que podamos seguir ayudando a más animales. <a href="./contacto.html">Contactanos</a>
           </p>
         </div>
       </aside>
@@ -152,9 +153,11 @@
         <a class="button btn btn-sm" href="#programas">Ir arriba</a>
       </p>
 
-      <p class="mt-3">
-        ¿Querés participar en alguno de estos programas? <a href="./contacto.html">Contactanos</a>.
-      </p>
+      <div class="alert alert-warning" role="alert">
+        <p class="mt-3">
+          ¿Querés participar en alguno de estos programas? <a href="./contacto.html">Contactanos</a>.
+        </p>
+      </div>
         
     </div>
   </main>

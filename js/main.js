@@ -45,3 +45,17 @@ if(formulario){
 
     });
 }
+
+// mostrar/ocultar aside de programas
+const btnVerMas = document.getElementById("btn-ver-mas");
+if (btnVerMas) {
+    btnVerMas.addEventListener("click", () => {
+        const seccion = document.getElementById("programas");
+        const aside = document.getElementById("aside-programas");
+
+        seccion.classList.toggle("col-md-8");
+        aside.classList.toggle("d-none");
+
+        btnVerMas.textContent = aside.classList.contains("d-none") ? "Ver info importante" : "Ver menos";
+    });
+}
