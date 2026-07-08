@@ -332,6 +332,8 @@ strong a, figcaption{
 
 .navbar {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar-collapse {
@@ -368,3 +370,10 @@ body.Modo-oscuro span{
     color: #fef9c3;
 }
 /*--------------------------------------------------------------------------------------------*/
+
+/* Hace que el btn-modo se renderice despues del collapse */
+/* @media (min-width: 992px) {
+    #btn-modo {
+        order: 1;
+    }
+} */
