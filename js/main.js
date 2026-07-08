@@ -21,3 +21,27 @@ boton.addEventListener("click",()=>{
         localStorage.setItem("modo", "claro");
     }
 })
+
+const formulario = document.getElementById("form-contacto");
+const mensaje = document.getElementById("mensaje-formulario");
+if(formulario){
+    formulario.addEventListener("submit", function (e){
+        e.preventDefault();
+
+        const nombre = document.getElementById("nombre").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const texto = document.getElementById("mensaje").value.trim();
+
+        if (nombre ==="" || email === "" || texto === "" ){
+            mensaje.textContent = "Todos los campos son obligatorios.";
+            mensaje.style.color = "red";
+            return;
+        }
+
+        mensaje.textContent = "¡Mensaje Enviado Correctamente!";
+        mensaje.style.color = "green";
+        
+        formulario.reset();
+
+    });
+}

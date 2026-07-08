@@ -308,6 +308,8 @@ strong a, figcaption{
     letter-spacing: 0.03em;
 }
 
+/* Navbar */
+
 .navbar-nav {
     width: 100%;
     justify-content: center;
